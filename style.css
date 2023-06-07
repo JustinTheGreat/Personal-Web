@@ -1,0 +1,80 @@
+*{
+  background-color: #F3F3F3;
+  margin: 0;
+  padding: 0;
+  border: black;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #F3F3F3;
+  }
+/** Navigation **/  
+  .logo img {
+    width: 100%;
+    height: auto;
+    max-width: 100px;
+  }
+  .logo img:hover {
+    width: 110%;
+    height: auto;
+    background-image: url("images/Logo.gif");
+  }
+  nav ul {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+  }
+  
+  nav ul li {
+    margin-left: 20px;
+  }
+  
+  nav ul li a {
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: "Lucida Console", "Courier New", monospace;
+  }
+  nav ul li a:hover {
+    color:grey;
+  }
+  .frontProfile {
+    border-radius: 15%;
+    width: 30%;
+    height: auto;
+    position: relative;
+    left: 5%;
+    top: 10px;
+}
+
+.typewriter p {
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: .15em solid orange; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .15em; /* Adjust as needed */
+  animation: 
+    typing 3.5s steps(40, end),
+    blink-caret .75s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: orange; }
+}
+
+.container {
+  display: flex;
+  align-items: center;
+}
