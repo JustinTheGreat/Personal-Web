@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <!--Command + Shift + P for extension -->
+<!--Inspiration from - https://mattfarley.ca/-->
 <html>
   <head>
     <title>Navigation Bar</title>
@@ -13,10 +14,10 @@
       </div>
       <nav>
         <ul>
-          <li><a href="#">Projects</a></li>
-          <li><a href="#">Background</a></li>
-          <li><a href="#">Socials</a></li>
-          <li><a href="#">Secret</a></li>
+          <li><a href="#projects-top-white-space">Projects</a></li>
+          <li><a href="#my-journey">Background</a></li>
+          <li><a href="#footer-top-white-area">Socials</a></li>
+          <li><a href="secret.html">Secret</a></li>
         </ul>
       </nav>
     </header>
@@ -48,6 +49,7 @@
       <a href="#white_area" class="blink">Scroll down for more info</a>
       <a href="#white_area">
        <a href="#white_area">
+    <div id = "white_area"></div>
     <div class="arrow">
         <span></span>
         <span></span>
@@ -55,7 +57,7 @@
       </div>
     </a>
     </div>
-    <div id = "white_area"></div> <!-- Seperator to look clean -->
+    <div id = "white_area_arrow_bottom"></div> <!-- Seperator to look clean -->
     <div id = "gradient_area"></div>
     <div id="grey_area"></div>
     <div class="about-me" id = "about-me">
@@ -67,29 +69,66 @@
     </div> 
     <div id="grey_area"></div>
     <div id = "gradient_area2"></div>
+    <div id = "projects-top-white-space"></div>
     <section id="projects">
       <section class="gallery">
         <h1>My Projects</h1>
         <div class="container">
           <div id="carousel">
             <figure><a href = "https://github.com/JustinTheGreat/pygame"><img src="images/Logo.gif" alt=""><figcaption>Mega Knight Game</figcaption></a></figure>
-            <figure><img src="https://github.com/JustinTheGreat/Dynamic-Sudoku-Program" alt=""><figcaption>Dynamic Sudoku Solver</figcaption></figure>
-            <figure><img src="https://github.com/JustinTheGreat/redcliffbot" alt=""><figcaption>Discord Bot</figcaption></figure>
-            <figure><img src="http://lorempixel.com/186/116/nature/4" alt=""><figcaption>This Website</figcaption></figure>
-            <figure><img src="http://lorempixel.com/186/116/nature/5" alt=""></figure>
-            <figure><img src="http://lorempixel.com/186/116/nature/6" alt=""></figure>
-            <figure><img src="http://lorempixel.com/186/116/nature/7" alt=""></figure>
-            <figure><img src="http://lorempixel.com/186/116/nature/8" alt=""></figure>
-            <figure><img src="http://lorempixel.com/186/116/people/9" alt=""></figure>
+            <figure><a href="https://github.com/JustinTheGreat/Dynamic-Sudoku-Program"><img src="images/sudoku.gif" alt=""><figcaption>Dynamic Sudoku Solver</figcaption></a></figure>
+            <figure><a href="https://github.com/JustinTheGreat/redcliffbot"><img src="images/discord_bot.webp" alt=""><figcaption>Discord Bot</figcaption></a></figure>
+            <figure><a href = "https://github.com/JustinTheGreat/Personal-Web"><img src="website.gif" alt=""><figcaption>This Website</figcaption></a></figure>
+            <figure><a href = "https://drive.google.com/file/d/1kUiju1u7uK45m-TMrb1XWJb7wGWh6PdG/view?usp=sharing"><img src="images/underconstruction.gif" alt=""><figcaption>Résumé</figcaption></a></figure>
+            <figure><a><img src="images/underconstruction.gif" alt=""><figcaption>Zombie Shooter</figcaption></a></figure>
+            <figure><img src="images/underconstruction.gif" alt=""></figure>
+            <figure><img src="images/underconstruction.gif" alt=""></figure>
+            <figure><img src="images/underconstruction.gif" alt=""></figure>
           </div>
         </div>
       </section>
     </section>
-    <div class = "Background">
-
-    </div>
-    <div class = "Socials">
-
-    </div>
+    <div class = "my-journey-top-white-space"></div>
+    <section class="Background" id = "my-journey">
+      <h1>My Journey</h1>
+      <ul>
+          <li style="--accent-color:#41516C">
+              <div class="date">2016</div>
+              <div class="title">First Job</div>
+              <div class="descr">In 2016, I had my first real job(I don't count working for my parent's company) as a kitchen assistant at my local golfclub - Silver Lakes Golf Club.</div>
+          </li>
+          <li style="--accent-color:#FBCA3E">
+              <div class="date">2018</div>
+              <div class="title">Start as a programmer</div>
+              <div class="descr">Come late grade 10, I started learning programming on my own and through high school. During this year, was when I discovered my passion for creating programs and applications.</div>
+          </li>
+          <li style="--accent-color:#E24A68">
+              <div class="date">2019</div>
+              <div class="title">First Medal</div>
+              <div class="descr">In 2019, I participated in my first hackathon where we competed at a hackathon hosted by our local library where me and my team took 3rd place in a competition to develop using android studios.</div>
+          </li>
+          <li style="--accent-color:#1B5F8C">
+              <div class="date">2021</div>
+              <div class="title">University!</div>
+              <div class="descr">Come 2021, and right as lockdown lifted, I applied and got into the University of Windsor for Computer Science of which I still continue my degrees today with a specialization in applied computing with a minor in business administration.</div>
+          </li>
+          <li style="--accent-color:#4CADAD">
+              <div class="date">2023</div>
+              <div class="title">Present Day</div>
+              <div class="descr">To this present day, I continue my journey as a programmer developing random things on my own time!</div>
+          </li>
+      </ul>
+    </section>
+    
   </body>
+  <footer>
+    <div id ="footer-top-white-area"></div>
+    <div class = "Socials">
+      <a href="https://www.instagram.com/thisisbillgates/?hl=en"><img src="images/instagram.png" alt="Instagram"></a>
+        <a href="https://github.com/JustinTheGreat/Personal-Web"><img src="images/github.png" alt="GitHub"></a>
+        <a href="https://www.linkedin.com/in/justin-zheng-21a1b7210"><img src="images/linkedin.jpeg" alt="LinkedIn"></a>
+        <a href="mailto:realjustinzheng@gmail.com"><img src="images/email.png" alt="Email"></a>
+    </div>
+    <div id ="footer-bottom-white-area"></div>
+  </footer>
 </html>
