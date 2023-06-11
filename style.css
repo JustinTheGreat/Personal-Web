@@ -641,3 +641,14 @@ header {
 .Socials a:hover img {
   transform: scale(1.2);
 }
+/* Credits*/
+.credits {
+  margin-top: 3em;
+  font-size: 1.2em;
+  text-align: center;
+  font-family: "Lucida Console", "Courier New", monospace;
+}
+
+.credits #my_signature {
+  font-family: cursive;
+}
